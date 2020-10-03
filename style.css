@@ -28,11 +28,11 @@
 
 
 body{
-    margin: 0px;
-    padding: 0px;
+    margin: 2px;
+    padding: 2px;
     box-sizing: border-box;
     background-color: var(--color-primary);
-    font-size: 20px;
+    font-size: 22px;
     color: var(--color-secondary);
   
 }
@@ -114,7 +114,7 @@ input[type=checkbox]{
 
 .output{
     position: relative;
-    top: 230px;
+    top: 240px;
     left: 50%;
     transform: translate(-50%, -50%);
    width: 99%;
@@ -126,7 +126,7 @@ input[type=checkbox]{
 }
 
 #input,#result{
-  color: #101010;
+  color: #101011;
   position:absolute;
   top: 160px;
   right: 20px;
@@ -136,7 +136,7 @@ input[type=checkbox]{
 
 .side-functions{
   position: absolute;
-  top: 456px;
+  top: 460px;
   left: 5px;
   width: 27%;
   display: grid;
@@ -147,7 +147,7 @@ input[type=checkbox]{
 
 .main-functions{
     position: absolute;
-    top: 456px;
+    top: 460px;
    right: 5px;
    width: 70%;
    display: grid;
